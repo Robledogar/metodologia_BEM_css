@@ -1,5 +1,84 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/* Utilizar normalize css o reset */
+
+/*
+Importando Normalize tras instalarlo con el comando 
+npm install normalize.css en la terminal
+ */
+@import 'node_modules/normalize.css/normalize.css';
+
+
+       /* Bloque */
+body {
+    background-color: #ced8cd;
 }
+
+    .header {
+
+    }
+/* Elemento */
+        .header__title {
+
+        }
+
+        .header__menu {
+            
+        }
+
+    .menuList {
+        list-style: none;
+        display: flex;
+        gap: 5px;
+    }
+
+        .menuList__item {
+            
+
+        }
+
+        .menuList__link {
+            background-color: black;
+            color: white;
+            text-decoration: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+        /*Modificador*/
+        .menuList__link--cta {
+            background-color: green;
+        }
+
+
+        /*2º Vídeo*/
+        .faq {
+
+        }
+            .faq__title {
+
+            }
+            .faq__list {
+
+            }
+            .faq__question {
+
+            }
+            .faq__answer {
+
+            }
+
+
+
+            /*Footer*/
+
+            .footer {
+                background-color: black;
+                color: white;
+                display: flex;
+            }
+                .footer_col {
+                    width: 25%;
+
+                }
+                .footer__title {
+                    color: orange;
+                }
