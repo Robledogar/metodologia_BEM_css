@@ -1,0 +1,449 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+/* Buttons */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button--primary {
+    background-color: #007bff;
+    color: white;
+}
+
+.button--primary:hover {
+    background-color: #0056b3;
+}
+
+.button--secondary {
+    background-color: #6c757d;
+    color: white;
+}
+
+.button--secondary:hover {
+    background-color: #5a6268;
+}
+
+.button--link {
+    background: none;
+    color: #007bff;
+    padding: 0;
+}
+
+.button--link:hover {
+    text-decoration: underline;
+}
+
+
+
+
+/* Hero Section */
+.hero {
+    background-color: #e9ecef;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.hero__title {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.hero__subtitle {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.hero__image img {
+    margin-top: 20px;
+}
+
+
+/* Mission Section */
+.mission {
+    background-color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.mission__title {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.mission__text {
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+/* Programs Section */
+.programs {
+    background-color: #f8f9fa;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.programs__title {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.programs__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.program {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 300px;
+    text-align: center;
+}
+
+.program__title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.program__text {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+/* Stories Section */
+.stories {
+    background-color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.stories__title {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.stories__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.story {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 300px;
+    text-align: center;
+}
+
+.story img {
+    border-radius: 10px;
+    width: 200px;
+}
+
+.story__quote {
+    font-size: 1em;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+.story__author {
+    font-size: 0.9em;
+    color: #6c757d;
+}
+
+/* Help Section */
+.help {
+    background-color: #e9ecef;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.help__title {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.help__options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.help__option {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 300px;
+    text-align: center;
+}
+
+.help__option-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.help__option-text {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+/* Events Section */
+.events {
+    background-color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.events__title {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.events__list {
+    list-style: none;
+    padding: 0;
+}
+
+.event {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.event__title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.event__date, .event__location {
+    font-size: 1em;
+    color: #6c757d;
+    margin-bottom: 10px;
+}
+
+/* News Section */
+.news {
+    background-color: #e9ecef;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.news__title {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.news__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.news__item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 300px;
+    text-align: center;
+}
+
+.news__item-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.news__item-date {
+    font-size: 0.9em;
+    color: #6c757d;
+    margin-bottom: 10px;
+}
+
+.news__item-summary {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+/* Sponsors Section */
+.sponsors {
+    background-color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.sponsors__title {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.sponsors__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.sponsor img {
+    max-height: 100px;
+}
+
+
+/* Newsletter Section */
+.newsletter {
+    background-color: #f8f9fa;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.newsletter__title {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.newsletter__text {
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+.newsletter__form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.newsletter__input {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.newsletter__button {
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+.newsletter__button:hover {
+    background-color: #0056b3;
+}
+
+.faq {
+    
+}
+
+    .faq__title {
+        font-size: 2em;
+        margin: 20px;
+        text-align: center;
+    }
+    
+    .faq__list {
+        list-style: none;
+        padding: 0;
+    }
+    
+    .faq__item {
+        margin-bottom: 20px;
+    }
+    
+    .faq__question {
+        background-color: #f8f9fa;
+        padding: 15px;
+        border: none;
+        border-radius: 5px;
+        width: 100%;
+        text-align: left;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        outline: none; /* Eliminar el resaltado predeterminado del enfoque */
+    }
+    
+    .faq__question:hover {
+        background-color: #e9ecef;
+    }
+    
+    .faq__answer {
+        display: none;
+        background-color: #f8f9fa;
+        padding: 15px;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+    
+    .faq__answer p {
+        margin: 0;
+    }
+    
+    /* Mostrar respuestas cuando el desplegable está abierto */
+    .faq__item[open] .faq__answer {
+        display: block;
+    }
+    
+
+
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .header__nav {
+        display: none;
+    }
+    
+    .hero__content, .hero__image {
+        text-align: center;
+    }
+    
+    .programs__list, .stories__list, .help__options, .news__list, .sponsors__list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .newsletter__form {
+        flex-direction: column;
+    }
+
+    .newsletter__input {
+        margin-bottom: 10px;
+    }
+}

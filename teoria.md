@@ -48,3 +48,24 @@
 .card__link { /* Elemento */
   /* Estilos del elemento */
 }
+
+<!-- MAS EJEMPLOS -->
+
+<!-- Bloque -->
+<div class="header"></div>
+<div class="button"></div>
+
+
+<!-- Elemento-->
+<div class="header">
+    <h1 class="header__title"></h1>
+    <nav class="header__nav"></nav>
+</div>
+
+<!-- Modificador -->
+<button class="button button--primary"></button>
+<button class="button button--secondary"></button>
+
+
+
+
